@@ -297,6 +297,7 @@ text-align: center;
   width: 20%;
   text-align: center;
   padding: 8px;
+  padding-top: 0px;
 }
 
 .sidemenu a {
