@@ -132,7 +132,8 @@ display: flex;
 
 gap: 1em;
 
-font-size: 80%;
+font-size: calc(70% + 0.2vw);
+
 
 }
 
