@@ -209,6 +209,7 @@ top: 35px;
 .dropdown li + li {
 
 margin-top: 10px;
+hyphens: none;
 
 }
 
