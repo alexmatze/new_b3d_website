@@ -54,6 +54,7 @@ nav {display: flex}
 body {
 min-height: 100%;
 font-family: "Open Sans", sans-serif;
+hyphens: auto;
 }
 
 
