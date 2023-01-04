@@ -364,6 +364,49 @@ text-align: center;
   opacity: 1;
 }
 
+.solomain .contactbox{
+  width:40%;
+  background-color: rgb(173, 185, 202);
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  padding:40px;
+  display: flex;
+  align-items: center;
+
+}
+
+#box1_2{
+  width:50%;
+  min-width: 100px;
+}
+
+#box2_2{
+  width:50%;
+}
+
+@media screen and (max-width: 768px) {
+  #box2_2 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.solomain .contactbox:before,
+.solomain .contactbox:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+.solomain .contactboxr div {
+        float: left;
+        width: 180px;
+        height: 160px;
+      }
+
 .main {
   float: left;
   width: 70%;
@@ -456,6 +499,8 @@ text-align: center;
 	padding: 15px;
 	margin-top: 7px;
 }
+
+
 
 .footer {
 
