@@ -296,6 +296,7 @@ text-align: center;
   float: left;
   width: 20%;
   text-align: center;
+  padding: 8px;
 }
 
 .sidemenu a {
@@ -307,6 +308,14 @@ text-align: center;
   color: black;
 }
 
+.sidemenu a:hover {
+  background-color: rgb(78, 111, 156);
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: white;
+}
 
 .solomain {
   display: flex;
@@ -360,7 +369,18 @@ text-align: center;
   padding: 0 20px;
 }
 
+.main60 {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
 .main .container {
+  position: relative;
+  width: 100%;
+}
+
+.mai60 .container {
   position: relative;
   width: 100%;
 }
@@ -410,6 +430,19 @@ text-align: center;
 	padding: 15px;
 	margin-top: 7px;
 }
+
+.fright20 {
+  float: left;
+  width: 20%;
+}
+
+.fright20 .content {
+  background-color: white;
+  text-align: left;
+	padding: 15px;
+	margin-top: 7px;
+}
+
 
 .right {
   float: left;
@@ -2245,7 +2278,7 @@ background-color: #fff;
   order:3;
 }
 /* For mobile phones: */
-.sidemenu, .fright, .main, .right {
+.sidemenu, .fright, .main, .right, .main60, .fright20 {
 	width: 100%;
 }
 
