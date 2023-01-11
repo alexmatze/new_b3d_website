@@ -26,8 +26,8 @@ html { font-size:100%;
 @media screen and (min-width:1700px) { * {font-size:1.16rem;} }
 @media screen and (min-width:1900px) { * {font-size:1.18rem;} }
 @media screen and (min-width:2500px) { * {font-size:1.2rem;} }
-@media screen and (min-width:3000px) { * {font-size:1.22rem;} }
-@media screen and (min-width:3500px) { * {font-size:1.24rem;} }
+@media screen and (min-width:3000px) { * {font-size:1.3rem;} }
+@media screen and (min-width:3500px) { * {font-size:1.45rem;} }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
