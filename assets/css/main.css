@@ -379,7 +379,7 @@ text-align: center;
 }
 
 .solomain .contactbox{
-  width:40%;
+  hyphens: none;
   background-color: rgb(173, 185, 202);
   text-align: -webkit-center;
   text-align: -moz-center;
