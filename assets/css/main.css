@@ -46,6 +46,17 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 scroll-behavior: smooth;}
 
+h1, h2, h3, h4, h5, h6{
+font-weight: bold;
+}
+
+h1{font-size:130%}
+h2{font-size:125%}
+h3{font-size:120%}
+h4{font-size:115%}
+h5{font-size:110%}
+h6{font-size:105%}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
