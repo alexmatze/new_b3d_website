@@ -44,8 +44,8 @@ function dismissCookieNotification() {
   // Create a cookie to remember that the user has dismissed the notification
   var expirationDate = new Date();
   expirationDate.setDate(expirationDate.getDate() + 30); // expires in 30 days
-  document.cookie = "cookie-notification-dismissed=true; expires=" + expirationDate.toUTCString() + "; domain=b3d.nrw;";
-  document.cookie = "cookie-notification-dismissed=true; expires=" + expirationDate.toUTCString() + "; domain=localhost;";
+  document.cookie = "cookie-notification-dismissed=true; expires=" + expirationDate.toUTCString() + "; domain=b3d.nrw; path=/;";
+  document.cookie = "cookie-notification-dismissed=true; expires=" + expirationDate.toUTCString() + "; domain=localhost; path=/;";
 
   //refresh the page after dismissing the createCookieNotification
   location.reload()
