@@ -358,7 +358,9 @@ text-align: center;
 }
 
 .hover-menu div a:hover {
-  text-decoration: underline;
+  
+  background-color:  rgb(78, 111, 156);
+  color: #fff;
 }
 
 .hover-menu:hover img {
