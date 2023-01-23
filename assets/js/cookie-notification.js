@@ -44,15 +44,15 @@ function dismissCookieNotification() {
   // Create a cookie to remember that the user has dismissed the notification
   var expirationDate = new Date();
   expirationDate.setDate(expirationDate.getDate() + 30); // expires in 30 days
-  document.cookie = "cookiename=b3d_noti_cookie; cookie-notification-dismissed=true; expires=" + expirationDate.toUTCString() + "; domain=b3d.nrw; path=/;";
-  document.cookie = "cookiename=local_noti_cookie; cookie-notification-dismissed=true; expires=" + expirationDate.toUTCString() + "; domain=.localhost.; path=/;";
+  document.cookie = "cookie-notification-dismissed=true; expires=" + expirationDate.toUTCString() + "; domain=b3d.nrw; path=/;";
+  document.cookie = "cookie-notification-dismissed-local=true; expires=" + expirationDate.toUTCString() + "; domain=.localhost.; path=/;";
 
   //refresh the page after dismissing the createCookieNotification
   location.reload()
 }
 
 // Check if the user has previously dismissed the notification
-var dismissed = (document.cookie.indexOf("cookie-notification-dismissed=true") >= 0);
+var dismissed = (document.cookie.indexOf("cookie-notification-dismissed=true") >= 0) or (document.cookie.indexOf("cookie-notification-dismissed-local=true") ;
 
 // If the user hasn't dismissed the notification, create it
 if (!dismissed) {
