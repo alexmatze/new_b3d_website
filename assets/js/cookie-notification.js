@@ -53,7 +53,7 @@ function dismissCookieNotification() {
 
 // Check if the user has previously dismissed the notification
 var dismissed = false;
-if(document.cookie.indexOf("cookie-notification-dismissed=true") >= 0 || document.cookie.indexOf("cookie-notification-dismissed-local=true")){
+if(document.cookie.indexOf("cookie-notification-dismissed=true") >= 0 || document.cookie.indexOf("cookie-notification-dismissed-local=true") >=0){
   var dismissed = true;
 } ;
 
