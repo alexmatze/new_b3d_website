@@ -367,11 +367,18 @@ text-align: center;
   transition: 0.3s ease-in-out;
 }
 
+.isDisabled {
+  cursor: default;
+  pointer-events:none;
+}
+
 .hover-menu div a:hover {
 
   background-color:  rgb(78, 111, 156);
   color: #fff;
 }
+
+
 
 .hover-menu:hover img {
   opacity: 0.1;
@@ -438,6 +445,9 @@ position:absolute;
   background-color: rgba(78, 111, 156,0.1);
   cursor: pointer;
 }
+
+
+
 
 .sidemenu {
   float: left;
