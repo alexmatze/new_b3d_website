@@ -429,6 +429,16 @@ text-align: center;
   min-height: 100vh;
 }
 
+#ap1, #ap2, #ap3, #ap4, #ap5, #ap6{
+position:absolute;
+}
+
+
+.highlight {
+  background-color: rgba(78, 111, 156,0.1);
+  cursor: pointer;
+}
+
 .sidemenu {
   float: left;
   width: 20%;
